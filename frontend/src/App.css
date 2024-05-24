@@ -1,0 +1,131 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+#hii{
+  width: 500px;
+  margin-left: 3rem;
+  margin-top:3rem;
+  border-radius: 1rem;
+  font-size: 1.5rem;
+  padding:0.5rem;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* DisplayData.css */
+.containers {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #f9f9f9; /* Light background for the container */
+}
+
+.entry {
+  background-color: #e3f2fd; /* Light blue background for entries */
+  border: 1px solid #90caf9; /* Light blue border */
+  border-radius: 8px;
+  padding: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+.entry h2 {
+  margin: 0;
+  font-size: 1.5em;
+  color: #0d47a1; /* Dark blue text for name */
+}
+
+.entry p {
+  margin: 10px 0 0;
+  font-size: 1.2em;
+  color: #1976d2; /* Medium blue text for amount */
+}
+
+h1 {
+  text-align: center;
+  color: #0d47a1; /* Dark blue for the main heading */
+  margin-bottom: 20px;
+}
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.title {
+  text-align: center;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.user-list {
+  list-style: none;
+  padding: 0;
+}
+
+.user-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  margin-bottom: 10px;
+  background-color: #f1f1f1;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.user-item:hover {
+  background-color: #e1e1e1;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.user-name {
+  font-size: 1.1em;
+  color: #555;
+}
+
+.user-amount {
+  font-size: 1.1em;
+  color: #28a745;
+}
